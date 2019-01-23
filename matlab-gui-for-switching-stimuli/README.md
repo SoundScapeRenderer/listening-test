@@ -1,8 +1,6 @@
 This is an example Matlab GUI for using SSR as audio backend for a listening experiment. Two stimuli are loaded into SSR, the GUI plays audio to JACK and allows for seamlessly switching between the stimuli.
 
-|gui_img|_
-
-.. |gui_img| image:: screenshot.png?raw=true
+![Screenshot](img/screenshot.png)
 
 To run the GUI, do the following in exactly this order:
 
