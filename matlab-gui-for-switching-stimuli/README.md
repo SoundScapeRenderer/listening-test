@@ -10,7 +10,7 @@ To run the GUI, do the following in exactly this order:
 3. Start Matlab
 4. Once SSR is up and running, run ```gui_for_ssr``` in Matlab
 
-If you are on macOS, everything should be working out-of-the-box. You might have to fiddle with the lines 97-138 in ```gui_for_ssr.m``` and comment line 6 and uncomment line 9 in ```start_ssr.sh``` if you work on a different OS. (Update 2021-05-20: We have been facing issues with playing audio from MATLAB to JACK on recent macOS version where JACK is not visible as and audio device to MATLAB. No solution yet.)
+If you are on macOS, everything should be working out-of-the-box. You might have to fiddle with the lines 97-138 in ```gui_for_ssr.m``` and comment line 6 and uncomment line 9 in ```start_ssr.sh``` if you work on a different OS. (Update 2021-05-20: We have been facing issues with playing audio from MATLAB to JACK on recent macOS versions where JACK is not visible to MATLAB as an audio device. No solution yet.)
 
 Note: You will hear audio playing when starting the GUI. This is necessary for being able to handle the audio connections in JACK.
 
