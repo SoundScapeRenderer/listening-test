@@ -3,7 +3,7 @@
   <header>
     <name>.</name>
     <description>
-      See the Sec. "Use cases" -> "Multiple Input Multiple Output" for an explanation of what this file does.
+      See https://ssr.readthedocs.io/en/latest/use-cases.html for an explanation of what this file does.
     </description>
   </header>
 
