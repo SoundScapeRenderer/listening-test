@@ -1,4 +1,4 @@
-#N canvas 151 209 1219 931 10;
+#N canvas 151 90 1219 931 10;
 #X obj 682 708 * 360;
 #X obj 682 737 int;
 #X obj 682 778 clip 0 359;
@@ -40,7 +40,7 @@
 -1 0 1;
 #X obj 952 498 tgl 15 0 empty empty connected 17 7 0 10 -262144 -1
 -1 0 1;
-#X text 71 78 Make sure that you start 4 SSR instances with the shell
+#X text 72 88 Make sure that you start 4 SSR instances with the shell
 script that we provide.;
 #X text 70 121 1 Click here to connect to all 4 SSRs;
 #X obj 72 141 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
@@ -78,10 +78,9 @@ Mind the default 90 deg offset that SSR assumes.;
 (0-359).;
 #X text 733 653 -0.4 m is the lower limit of the permissible range
 ;
-#X text 71 17 Refer to SSR manual \, Sec. "Use Cases" -> "Multiple
-Input Multiple Output" for an explanation of what this patch does.
-;
-#X text 70 52 Pd needs to have the iemlib external installed.;
+#X text 71 63 Pd needs to have the iemlib external installed.;
+#X text 71 9 Refer to SSR manual https://ssr.readthedocs.io/en/latest/use-cases.html#multiple-input-multiple-output
+for an explanation of what this patch does.;
 #X connect 0 0 1 0;
 #X connect 1 0 2 0;
 #X connect 2 0 3 0;

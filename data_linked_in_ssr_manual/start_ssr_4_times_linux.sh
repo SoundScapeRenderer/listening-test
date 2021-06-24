@@ -1,6 +1,6 @@
-#!/bin/bash
+#!/bin/sh
 
-# See the documentation, Sec. "Use Cases", for an explanation of what this script is doing.
+# See the documentation https://ssr.readthedocs.io/use-cases.html for an explanation of what this script is doing.
 
 
 # Start SSR 1, loudspeakers 1-2
@@ -28,6 +28,3 @@ jack_connect loudspeakers_5-6:out_2 system:playback_6
 
 jack_connect loudspeakers_7-8:out_1 system:playback_7
 jack_connect loudspeakers_7-8:out_2 system:playback_8
-
-
-exit 0

@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <asdf>
   <header>
-    <name>.</name>
     <description>
-      See https://ssr.readthedocs.io/en/latest/use-cases.html for an explanation of what this file does.
+      See https://ssr.readthedocs.io/use-cases.html for an explanation of what this file does.
     </description>
   </header>
 

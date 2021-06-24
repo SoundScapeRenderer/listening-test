@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <asdf>
   <header>
-    <name>.</name>
     <description>
-      See https://ssr.readthedocs.io/en/latest/use-cases.html for an explanation of what this file does.
+      See https://ssr.readthedocs.io/use-cases.html for an explanation of what this file does.
     </description>
   </header>
 
@@ -12,12 +11,12 @@
 
     <source name="left - ls 3,4" properties_file="impulse_responses/irs34_l.wav">
       <port>99</port>
-      <position x="-.75" y="3" fixed="true"/>
+      <position x="-.75" y="2" fixed="true"/>
     </source>
 
     <source name="right - ls 3,4" properties_file="impulse_responses/irs34_r.wav">
       <port>99</port>
-      <position x="-.25" y="3" fixed="true"/>
+      <position x="-.25" y="2" fixed="true"/>
     </source>
   </scene_setup>
 </asdf>
