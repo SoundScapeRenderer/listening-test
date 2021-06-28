@@ -15,12 +15,11 @@ to use (0..359);
 #X msg 53 344 ref rot \$1;
 #X text 282 277 ...;
 #X msg 250 276 117;
-#X text 21 75 Pd needs to have the iemlib external installed.;
 #X msg 314 276 5;
 #X msg 187 277 211;
 #X msg 119 276 358;
 #X msg 86 276 359;
-#X text 21 100 The SSR has to be running with the FUDI flag: --fudi-server=1174
+#X text 22 80 The SSR has to be running with the FUDI flag: --fudi-server=1174
 ;
 #X msg 34 192 connect 127.0.0.1 1147;
 #X text 21 31 See the SSR manual https://ssr.readthedocs.io/use-cases.html
@@ -32,8 +31,8 @@ for a explanation of what this patch does.;
 #X connect 7 0 11 0;
 #X connect 11 0 2 0;
 #X connect 13 0 11 0;
+#X connect 14 0 11 0;
 #X connect 15 0 11 0;
 #X connect 16 0 11 0;
 #X connect 17 0 11 0;
-#X connect 18 0 11 0;
-#X connect 20 0 0 0;
+#X connect 19 0 0 0;
